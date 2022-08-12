@@ -1,0 +1,24 @@
+.mealss {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: appearance 300ms ease-out forwards;
+  }
+  
+  .mealss ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes appearance {
+    from {
+      opacity: 0;
+      transform: translateY(6rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
