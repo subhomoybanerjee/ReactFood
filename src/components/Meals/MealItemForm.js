@@ -20,6 +20,7 @@ function MealItemForm(props){
         }
 
         props.onAddToCart(enteredAmountNumber)
+        
     }
 
     return(

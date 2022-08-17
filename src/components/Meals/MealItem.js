@@ -17,9 +17,10 @@ function MealItem(props){
             price:props.price
         })
 
-
+        
     }
-
+    
+    
     return(
         <Cards className="meal">
             <section>

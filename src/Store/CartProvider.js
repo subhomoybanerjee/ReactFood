@@ -77,6 +77,7 @@ const cartReducer=(state,action)=>{
         }
 
     }
+
     return defaultCartState
     
 }
@@ -102,12 +103,18 @@ function CartProvider(props){
         })
     }
 
+    function clearCartHandler(){
+        dispatchCartAction({
+            type:'SUBMISSION'
+        })
+    }
+
     const cartContext={
         items:cartState.items,
         totalAmount:cartState.totalAmount,
         addItem:addItemToCartHandler,
-        removeItem:removeItemfromCartHandler
-
+        removeItem:removeItemfromCartHandler,
+        clearCart:clearCartHandler
     }
 
     return(
