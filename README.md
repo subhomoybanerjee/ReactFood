@@ -11,7 +11,7 @@ This is an online food ordering app made with HTML CSS and ReactJS.
 
 
 ## 🚀 About Me
-Hello I'm a full stack developer Shubhomoy Banerjee from India. I am deeply interested in web technologies😁. I am a final year bachelor's student at Vellore Institute of Technology, Chennai.
+Just trying to survive
 
 
 
